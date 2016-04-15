@@ -27,9 +27,7 @@ import org.json.JSONObject;
 
 import java.util.zip.Inflater;
 
-/**
- * A placeholder fragment containing a simple view.
- */
+//GridView Version
 public class MovieHomeFragment extends Fragment {
 
     private final String POPULAR_MOVIES_URL = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=d284ef3240230de19eef97db7d0fbb27";

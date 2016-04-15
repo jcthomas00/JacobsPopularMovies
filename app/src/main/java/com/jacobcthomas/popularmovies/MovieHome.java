@@ -23,7 +23,7 @@ public class MovieHome extends AppCompatActivity {
                 return;
             }
             // Create a new Fragment to be placed in the activity layout
-            MovieHomeFragment firstFragment = new MovieHomeFragment();
+            HomeFragment firstFragment = new HomeFragment();
             firstFragment.setArguments(getIntent().getExtras());
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.fragment_container, firstFragment).commit();

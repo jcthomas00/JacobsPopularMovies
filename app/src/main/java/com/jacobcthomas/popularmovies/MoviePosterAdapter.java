@@ -18,9 +18,6 @@ import com.android.volley.toolbox.ImageRequest;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-/**
- * Created by Jacob on 3/5/2016.
- */
 public class MoviePosterAdapter extends BaseAdapter {
     private Context mContext;
     private JSONArray movieArray;
@@ -77,4 +74,5 @@ public class MoviePosterAdapter extends BaseAdapter {
         }
         return imageView;
     }
+
 }
